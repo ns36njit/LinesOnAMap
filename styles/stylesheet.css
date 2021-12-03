@@ -1,0 +1,41 @@
+.page-footer {
+    background: #292b2c;
+    color: white;
+}
+h1.carousel-caption {
+    top: 50%;
+}
+.lg-view{
+    display:inline-block;
+}
+
+.sm-view{
+    display:none;
+    text-align: center;
+}
+@media screen and (max-width: 500px) {
+    .lg-view{
+        display:none;
+    }
+
+    .sm-view{
+        display:inline-block;
+        text-align: center;
+
+
+    }
+}
+h1.jumbotron{
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+
+}
+footer span{
+    padding-right:30px;
+}
+.card-img-top{
+    padding-top: 10px;
+}
